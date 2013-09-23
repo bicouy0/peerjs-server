@@ -50,7 +50,13 @@ var path = require('path')
         demand: true,
         alias: 'p',
         description: 'port',
-      }
+      },
+      mongo: {
+        demand: false,
+        alias: 'm',
+        description: 'mongodb connection url',
+        default: 'mongodb://localhost:27017/peerjs'
+      },
     }).argv;
 
 opts.version = version;

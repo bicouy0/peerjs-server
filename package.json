@@ -13,7 +13,8 @@
   "dependencies": {
     "restify": "~2.3.5",
     "ws": "~0.4.25",
-    "optimist": "*"
+    "optimist": "*",
+    "mongodb": "~1.3.19"
   },
   "devDependencies": {
     "expect.js": "*",
